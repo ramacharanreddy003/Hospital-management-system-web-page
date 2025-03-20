@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Eye Hospital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        /*.nav {
+            background-color: #2c3e50;
+            padding: 20px;
+
+        }
+        navbar a{
+            color: red;
+            margin: 0 5px;
+        }*/
+        .nav{
+            background-color: green;
+            height: 30px;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+     <h1>ABC Eye Hospital</h1>
+        <p>Efficient Healthcare Management</p>
+        <marquee>ABC Eye Hospital</marquee>
+    </header>
+    <div class="nav">
+        
+        <a href="#sectionId1">Patient Management</a>
+        <a href="#sectionId2">Appointment System</a>
+        <a href="#sectionId3">Medical Records</a>
+        <a href="#sectionId4">Staff Management</a>
+
+    </div>
+    <section id="sectionId1">
+        <h2><u>Patient Management:</u></h2>
+        <p>For Patients</p>
+        <p>About the Eye</p>
+        <p>Eye Diseases & Treatment</p>
+        <p>What to expect at ABC?</p>
+        <p>Insurance</p>
+        <p>Give us your Feedback</p>
+        <p>For International Patients</p>
+        <p>Hospital Locations</p>
+        <p>Speciality Clinics</p>
+        <p>Eye Diseases & Treatment</p>
+        <p>If you experience eye pain, injury, vision loss, or any other sudden change in vision, see an eye doctor IMMEDIATELY</p>
+        <p>Click on each person to learn about the different eye conditions that may affect that age group!</p>
+        <p>List of eye diseases and their treatment</p>
+        <p>Cataract</p>
+        <p>Adult Cataract</p>
+        <p>Childhood Cataracts</p>
+        <p>Corneal Diseases</p>
+        <p>Cornea Transplantation</p>
+        <p>Corneal Ulcer (Keratitis)</p>
+        <p>Dry Eye</p>
+        <p>Keratoconus</p>
+        <p>Pterygium</p>
+        <p>Glaucoma</p>
+        <p>Glaucoma</p>
+        <p>Low Vision</p>
+        <p>Low Vision</p>
+        <p>Orbit</p>
+        <p>Blocked Tear Ducts</p>
+        <p>Eyelid Drooping (Ptosis)</p>
+        <p>Eyelid Skin Cancer</p>
+        <p>Retinoblastoma</p>
+        <p>Thyroid Eye Disease</p>
+        <p>Prosthetic Eye (Artificial eye)</p>
+        <p>Refractive errors</p>
+        <p>Refractive Errors</p>
+        <p>LASIK</p>
+        <p>Retinal Diseases</p>
+        <p>Diabetic Retinopathy</p>
+        <p>Macular Degeneration</p>
+        <p>Retinal Detachment</p>
+        <p>Retinopathy of Prematurity</p>
+        <p>Vein Occlusions</p>
+        <p>Intravitreal Injections</p>
+        <p>Laser Treatment (Photocoagulation)</p>
+        <p>LASIK</p>
+        <button><a href="#sectionId11">back</a></button>
+    </section>
+    <section id="sectionId2">
+        <h2><u>Appointment System:</u></h2>
+        <p>Schedule and manage appointments for patients and streamline the appointment process.</p>
+        <h3><u>Appointment system of ABC eye hospital:</u></h3>
+        <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8">
+            <fieldset>
+                <legend>For person</legend>
+                <label>
+                    Name
+                    <input type="text" name="name" required>
+                </label>
+                <div class="two-cols">
+                    <label>
+                        Email address
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>
+                        Phone number
+                        <input type="phone number" name="phone number" required>
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Appointment request</legend>
+                <div class="two-cols">
+                    <label>
+                        Date
+                        <input type="date" name="Appointment request" required>
+                    </label>
+                    <div class="inline">
+                        <label>
+                            <input type="hidden" name="Morning desired" value="no">
+                            <input type="checkbox" name="Morning desired" value="yes">
+                            Morning
+                        </label>
+                        <label>
+                            <input type="hidden" name="Afternoon desired" value="no">
+                            <input type="checkbox" name="Afternoon desired" value="yes">
+                            Afternoon
+                        </label>
+                    </div>
+                </div>
+                <p>Confirmation requested by</p>
+                <div class="inline">
+                    <label>
+                        <input type="radio" name="Confirmation requested by" value="email" checked>
+                        Email
+                    </label>
+                    <label>
+                        <input type="radio" name="Confirmation requested by" value="phone">
+                        Phone call
+                    </label>
+                </div>
+            </fieldset>
+            <div class="btns">
+                <input type="text" name="_gotcha" value="" style="display:none;">
+                <input type="submit" value="Submit request">
+            </div>
+            <button><a href="#sectionId11">back</a></button>
+        </form>
+    </section>
+    <section id="sectionId3">
+        <h2><u>Medical Records:</u></h2>
+        <p>Securely maintain electronic health records and medical history of patients.</p>
+    </section>
+    <section id="sectionId4">
+        <h2><u>Staff Management:</u></h2>
+        <p>Manage hospital staff details, including doctors, nurses, and administrative staff.</p>
+        <h3><u>Doctors, ABC</u></h3>
+        <p>Chief Medical Officer</p>
+        <p>Dr. Ashok Vardhan, DO, DNB, M.Sc (Epidemiology)</p>
+        <p>CATARACT SERVICES</p>
+        <p>Chief</p>
+        <p>Dr. Preeti Mohanty, DNB, MS</p>
+        <p>Medical Consultants:</p>
+        <p>Dr. K. Umakanth, MS</p>
+        <p>Dr. Sai Silpa MS</p>
+        <p>CORNEA & REFRACTIVE SURGERY SERVICES</p>
+        <p><u>Medical Consultants:</u></p>
+        <p>Dr. V. Raj Yashwanth, MS</p>
+        <p>Dr. Biswajit Baral, MS</p>
+        <p>Dr. Anusha Koduru, DNB</p>
+        <p><u>GLAUCOMA SERVICES:</u></p>
+        <p>Chief</p>
+        <p>Dr. Ashok Vardhan, DO, DNB</p>
+        <p>Medical Consultants</p>
+        <p>Dr. K. Sreenath, DO, DNB</p>
+        <p>Dr. Keerthi Gayam, DNB</p>
+        <p>Dr. Venkata Sudheer, DNB</p>
+    </section>
+</body>
+</html>
